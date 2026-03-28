@@ -2,3 +2,5 @@ node_modules/
 .next/
 web/node_modules/
 web/.next/
+web/out/
+site/
