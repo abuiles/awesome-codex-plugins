@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
 </p>
 
 <p align="center">
@@ -120,9 +121,3 @@ To add a plugin:
 - Plugin must have a public GitHub repository
 - Must include `.codex-plugin/plugin.json`
 - Must be functional and well-documented
-
-## License
-
-[![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-Licensed under the [Apache License, Version 2.0](LICENSE).
