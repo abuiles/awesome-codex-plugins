@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Linter: verify that list entries within each section of README.md are alphabetically sorted."""
+"""Linter: verify that list entries within each section of README.md are alphabetically sorted.
+
+Supports pinned entries: any list item preceded by `<!-- pinned -->` is treated as
+always-first and excluded from alphabetical checking. The remaining items must be sorted.
+"""
 
 import re
 import sys
@@ -41,6 +45,9 @@ def extract_sections(filepath: str) -> list[tuple[str, str, list[str]]]:
             current_items = []
         elif item_re.match(line):
             display_text = item_re.match(line).group(1)
+            # Skip pinned entries
+            if i > 1 and re.search(r"<!--\s*pinned\s*-->", lines[i - 2]):
+                continue
             current_items.append((display_text.lower(), i))
 
     # Don't forget the last section
