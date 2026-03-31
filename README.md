@@ -84,6 +84,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [OrgX](https://github.com/useorgx/orgx-codex-plugin) - MCP access and initiative-aware skills for organizational workflows.
 - [PapersFlow](https://github.com/papersflow-ai/papersflow-codex-plugin) - Paper discovery, citation verification, graph exploration, and DeepScan analysis.
 - [ru-text](https://github.com/talkstream/ru-text) - Russian text quality — ~1,040 rules for typography, info-style, editorial, UX writing, and business correspondence.
+- [Codex WhatsApp Relay](https://github.com/abuiles/codex-whatsapp-relay) - Link a local WhatsApp account to Codex, manage chats, and control Codex from allowed WhatsApp numbers.
 - [Yandex Direct](https://github.com/nebelov/yandex-direct-for-all) - GitHub-ready Codex plugin bundle for Yandex Direct, Wordstat, Metrika, and Roistat.
 
 
